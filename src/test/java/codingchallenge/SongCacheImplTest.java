@@ -1,4 +1,4 @@
-package homework;
+package codingchallenge;
 
 import org.junit.Test;
 
