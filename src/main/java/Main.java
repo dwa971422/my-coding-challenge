@@ -29,6 +29,7 @@ public class Main {
             try {
                 Thread.sleep(30000);
                 System.out.println("Finish task 3");
+                myThreadPool.shutdownAllMyThreads();
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }

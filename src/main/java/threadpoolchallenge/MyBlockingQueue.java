@@ -17,7 +17,7 @@ public class MyBlockingQueue<T> {
             wait();
         }
 
-        queue.offer(task);
+        queue.add(task);
 
         if (queue.size() == 1) {
             notifyAll();
